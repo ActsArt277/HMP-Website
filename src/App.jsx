@@ -1,5 +1,6 @@
 import { useState } from "react";
-import parishLogo from "../assets/holy-martyrs-parish-logo.jpeg";
+
+const parishLogo = "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Glossy%20Red%20Heart%20in%20Motion-yvfS9c0n4ReJfYjHhMjDjVCGKwIuiR.png";
 
 export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
